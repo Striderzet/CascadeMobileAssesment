@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB2CE60B2659577100DACBB2 /* CascadeMobileAssessmentTonyBucknerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2CE60A2659577100DACBB2 /* CascadeMobileAssessmentTonyBucknerApp.swift */; };
+		CB2CE60D2659577100DACBB2 /* PokemonSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2CE60C2659577100DACBB2 /* PokemonSearch.swift */; };
+		CB2CE60F2659577700DACBB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB2CE60E2659577700DACBB2 /* Assets.xcassets */; };
+		CB2CE6122659577700DACBB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB2CE6112659577700DACBB2 /* Preview Assets.xcassets */; };
+		CB2CE61D265958F300DACBB2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2CE61C265958F300DACBB2 /* User.swift */; };
+		CB2CE6202659591C00DACBB2 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2CE61F2659591C00DACBB2 /* Pokemon.swift */; };
+		CB2CE6242659598200DACBB2 /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2CE6232659598200DACBB2 /* CurrentUser.swift */; };
+		CB2CE6262659599200DACBB2 /* CurrentPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2CE6252659599200DACBB2 /* CurrentPokemon.swift */; };
+		CB2CE62A26595A0D00DACBB2 /* PokeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2CE62926595A0D00DACBB2 /* PokeAPI.swift */; };
+		CB2CE62C26595A1E00DACBB2 /* DispatchMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2CE62B26595A1E00DACBB2 /* DispatchMethods.swift */; };
+		CB2CE62E2659769A00DACBB2 /* PokemonViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2CE62D2659769A00DACBB2 /* PokemonViewer.swift */; };
+		CB2CE63026598F6F00DACBB2 /* UtilityMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2CE62F26598F6F00DACBB2 /* UtilityMethods.swift */; };
+		CB2CE632265AC67600DACBB2 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2CE631265AC67600DACBB2 /* LoadingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB2CE6072659577100DACBB2 /* CascadeMobileAssessmentTonyBuckner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CascadeMobileAssessmentTonyBuckner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2CE60A2659577100DACBB2 /* CascadeMobileAssessmentTonyBucknerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CascadeMobileAssessmentTonyBucknerApp.swift; sourceTree = "<group>"; };
+		CB2CE60C2659577100DACBB2 /* PokemonSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonSearch.swift; sourceTree = "<group>"; };
+		CB2CE60E2659577700DACBB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB2CE6112659577700DACBB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB2CE6132659577700DACBB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB2CE61C265958F300DACBB2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CB2CE61F2659591C00DACBB2 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		CB2CE6232659598200DACBB2 /* CurrentUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUser.swift; sourceTree = "<group>"; };
+		CB2CE6252659599200DACBB2 /* CurrentPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentPokemon.swift; sourceTree = "<group>"; };
+		CB2CE62926595A0D00DACBB2 /* PokeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeAPI.swift; sourceTree = "<group>"; };
+		CB2CE62B26595A1E00DACBB2 /* DispatchMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchMethods.swift; sourceTree = "<group>"; };
+		CB2CE62D2659769A00DACBB2 /* PokemonViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewer.swift; sourceTree = "<group>"; };
+		CB2CE62F26598F6F00DACBB2 /* UtilityMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityMethods.swift; sourceTree = "<group>"; };
+		CB2CE631265AC67600DACBB2 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB2CE6042659577100DACBB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB2CE5FE2659577100DACBB2 = {
+			isa = PBXGroup;
+			children = (
+				CB2CE6092659577100DACBB2 /* CascadeMobileAssessmentTonyBuckner */,
+				CB2CE6082659577100DACBB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB2CE6082659577100DACBB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB2CE6072659577100DACBB2 /* CascadeMobileAssessmentTonyBuckner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB2CE6092659577100DACBB2 /* CascadeMobileAssessmentTonyBuckner */ = {
+			isa = PBXGroup;
+			children = (
+				CB2CE60A2659577100DACBB2 /* CascadeMobileAssessmentTonyBucknerApp.swift */,
+				CB2CE61B265958D400DACBB2 /* Models */,
+				CB2CE61A265958C100DACBB2 /* View Models */,
+				CB2CE619265958AD00DACBB2 /* Views */,
+				CB2CE627265959AC00DACBB2 /* API */,
+				CB2CE628265959C200DACBB2 /* Utilities */,
+				CB2CE60E2659577700DACBB2 /* Assets.xcassets */,
+				CB2CE6132659577700DACBB2 /* Info.plist */,
+				CB2CE6102659577700DACBB2 /* Preview Content */,
+			);
+			path = CascadeMobileAssessmentTonyBuckner;
+			sourceTree = "<group>";
+		};
+		CB2CE6102659577700DACBB2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CB2CE6112659577700DACBB2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CB2CE619265958AD00DACBB2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CB2CE60C2659577100DACBB2 /* PokemonSearch.swift */,
+				CB2CE62D2659769A00DACBB2 /* PokemonViewer.swift */,
+				CB2CE631265AC67600DACBB2 /* LoadingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CB2CE61A265958C100DACBB2 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				CB2CE6232659598200DACBB2 /* CurrentUser.swift */,
+				CB2CE6252659599200DACBB2 /* CurrentPokemon.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		CB2CE61B265958D400DACBB2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CB2CE61C265958F300DACBB2 /* User.swift */,
+				CB2CE61F2659591C00DACBB2 /* Pokemon.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CB2CE627265959AC00DACBB2 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				CB2CE62926595A0D00DACBB2 /* PokeAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		CB2CE628265959C200DACBB2 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CB2CE62B26595A1E00DACBB2 /* DispatchMethods.swift */,
+				CB2CE62F26598F6F00DACBB2 /* UtilityMethods.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB2CE6062659577100DACBB2 /* CascadeMobileAssessmentTonyBuckner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB2CE6162659577700DACBB2 /* Build configuration list for PBXNativeTarget "CascadeMobileAssessmentTonyBuckner" */;
+			buildPhases = (
+				CB2CE6032659577100DACBB2 /* Sources */,
+				CB2CE6042659577100DACBB2 /* Frameworks */,
+				CB2CE6052659577100DACBB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CascadeMobileAssessmentTonyBuckner;
+			productName = CascadeMobileAssessmentTonyBuckner;
+			productReference = CB2CE6072659577100DACBB2 /* CascadeMobileAssessmentTonyBuckner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB2CE5FF2659577100DACBB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CB2CE6062659577100DACBB2 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = CB2CE6022659577100DACBB2 /* Build configuration list for PBXProject "CascadeMobileAssessmentTonyBuckner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB2CE5FE2659577100DACBB2;
+			productRefGroup = CB2CE6082659577100DACBB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB2CE6062659577100DACBB2 /* CascadeMobileAssessmentTonyBuckner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB2CE6052659577100DACBB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2CE6122659577700DACBB2 /* Preview Assets.xcassets in Resources */,
+				CB2CE60F2659577700DACBB2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB2CE6032659577100DACBB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2CE62A26595A0D00DACBB2 /* PokeAPI.swift in Sources */,
+				CB2CE60D2659577100DACBB2 /* PokemonSearch.swift in Sources */,
+				CB2CE6202659591C00DACBB2 /* Pokemon.swift in Sources */,
+				CB2CE632265AC67600DACBB2 /* LoadingView.swift in Sources */,
+				CB2CE63026598F6F00DACBB2 /* UtilityMethods.swift in Sources */,
+				CB2CE62E2659769A00DACBB2 /* PokemonViewer.swift in Sources */,
+				CB2CE62C26595A1E00DACBB2 /* DispatchMethods.swift in Sources */,
+				CB2CE60B2659577100DACBB2 /* CascadeMobileAssessmentTonyBucknerApp.swift in Sources */,
+				CB2CE61D265958F300DACBB2 /* User.swift in Sources */,
+				CB2CE6262659599200DACBB2 /* CurrentPokemon.swift in Sources */,
+				CB2CE6242659598200DACBB2 /* CurrentUser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CB2CE6142659577700DACBB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB2CE6152659577700DACBB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB2CE6172659577700DACBB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CascadeMobileAssessmentTonyBuckner/Preview Content\"";
+				DEVELOPMENT_TEAM = KUTZ72V8TQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CascadeMobileAssessmentTonyBuckner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TonyB.CascadeMobileAssessmentTonyBuckner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB2CE6182659577700DACBB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CascadeMobileAssessmentTonyBuckner/Preview Content\"";
+				DEVELOPMENT_TEAM = KUTZ72V8TQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CascadeMobileAssessmentTonyBuckner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TonyB.CascadeMobileAssessmentTonyBuckner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB2CE6022659577100DACBB2 /* Build configuration list for PBXProject "CascadeMobileAssessmentTonyBuckner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB2CE6142659577700DACBB2 /* Debug */,
+				CB2CE6152659577700DACBB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB2CE6162659577700DACBB2 /* Build configuration list for PBXNativeTarget "CascadeMobileAssessmentTonyBuckner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB2CE6172659577700DACBB2 /* Debug */,
+				CB2CE6182659577700DACBB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB2CE5FF2659577100DACBB2 /* Project object */;
+}
